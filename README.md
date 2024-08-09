@@ -1,1 +1,1 @@
-# odin-recipes
+Hi, I'm Fares. I'm new to learning development skills, and in this project, I will focus on improving my HTML skills.
