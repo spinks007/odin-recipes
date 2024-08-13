@@ -1,70 +1,94 @@
 * {
-    background-color: white;
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box; 
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.header {
+color: rgb(231, 190, 26);
+background-color: orangered;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
 
 h1 {
-font-family: montserrat;
-font-optical-sizing: auto;
-font-weight: 800;
-font-style: normal;
-font-size: 50px;
-padding: 10px;
-text-align: center;
-color: orangered;
+    font-family: Playfair Display;
+    font-size: 80px;
+    text-transform: uppercase;
 }
 
-.container {
-
-    width: 100vw;
-    height: 100vh;
+.recipes-container {
     display: flex;
-    flex-direction: column; 
     justify-content: center;
-    align-items: center; 
-    max-width: fit-content;
-    position: relative; 
+}
 
+.recipes-box {
+    width: 1285px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 15px;
 }
 
 ul {
+    list-style-type: none;
     display: flex;
     justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.box1, .box2, .box3, .box4 {
-    padding:0%;
-    margin: 30px;
-    border: 10px;
-    font-family: sans-serif;
-    font-weight: 650;
-    text-align: center;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: orangered;
 }
 
 .img1, .img2, .img3, .img4 {
-    display: block; 
-    height: 22; 
-    width: 300px;
-    object-fit: contain;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    margin: 0;
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    margin: 10px;
+}
 
+.las, .spag, .cap, .mar {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+a {
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+    
+
+a:hover {
+    color: orangered;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.credit {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    font-family: Playfair Display;
+    color: orangered;
+    padding-bottom: 5px;
 }
